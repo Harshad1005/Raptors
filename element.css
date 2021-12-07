@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    margin: 0px;
+}
+
+.Details{
+    font-size: larger;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+h4{
+    text-align: end;
+}
+
+.profile{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
+.achieve{
+    width: 30%;
+    height: 30%;
+    margin: 0 auto;
+  }
+
+.raptorslogo{
+    width: 30%;
+    height: 30%;
+}
+    
+header{
+    background-color: rgb(255, 174, 0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+nav{
+    padding: 10px;
+    background-color: rgba(255, 196, 0, 0.74);
+    color:black;
+    text-align: center;
+    overflow: hidden;
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+}
+
+.det{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgba(255, 196, 0, 0.473);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: rgb(0, 0, 0);
+}
+
+.found{
+    color: black;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.contimg{
+    background-image: url(back.jpg), url(back1.jpg);
+    background-repeat: no-repeat;
+    background-position: left, right;
+    background-size: 70% 100%;
+}
+
+footer{
+    padding: 1%;
+    background-color:rgb(26, 85, 8);
+    color:black;
+    text-align: start;
+    font-size: large;
+    background-size: 100%;
+}
+
+.foot{
+    position: right;
+}
